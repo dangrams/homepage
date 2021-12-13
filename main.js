@@ -1,12 +1,20 @@
-const firstName ='Daniel';
-const age = 36;
+const firstName = "Daniel";
+const age = 37;
 
-console.log(firstName);
-console.log(age);
-console.log(`siema, nazywam się ${firstName} i mam ${age}lat`)
+console.log("result");
+const button = document.querySelector("action--js");
 
-if (confirm("Podejmij decyzję!")) {
-    alert("Wybrano opcję: OK");
-    } else {
-    alert("Wybrano opcję: Anuluj");
-  } 
+console.log("button");
+
+button.addEventListener("click", () => {
+  const heading = document.querySelector("main__heading--js");
+  heading.innerHTML = "Witaj drogi odwiedzający";
+  console.log(heading.classList.contains(""));
+});
+
+const hamburger = document.querySelector(".hamburger--js");
+
+hamburger.addEventListener("click", () => {
+  const nav = document.querySelector(".navigation--js");
+  nav.classList.toggle("navigation--open");
+});

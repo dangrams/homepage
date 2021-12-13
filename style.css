@@ -1,15 +1,89 @@
 body {
-    background-image: url(https://i.pinimg.com/564x/6c/f8/7f/6cf87f168afbf20a985e5dcbe82fb7a9.jpg);
-    background-repeat: no-repeat;  
-    background-attachment: fixed;
-    background-size: 100% 100%;
-    
-    
+  background-image: url(https://insurebusiness.am/wp-content/uploads/2020/11/Webp.net-compress-image-004-1536x864.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  background-color: rgb(122, 146, 122);
+  font: 100;
+  color: green;
+  background-color: #85ffbd;
+  background-image: linear-gradient(45deg, #85ffbd 0%, #fffb7d 100%);
 }
 
-
-
-
 p {
-    color: rgb(106, 184, 61)29);
+  color: rgb(206, 68, 44);
+}
+
+.header {
+  background: #fff;
+  min-height: 60px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.header-link {
+  color: #04ac26;
+}
+
+.navigation {
+  padding: 16px;
+  display: none;
+}
+
+.navigation--open {
+  display: block;
+}
+
+.navigation__link {
+  color: red;
+  display: block;
+  margin-right: 0 0 16px;
+}
+
+.navigation__link--homepage {
+  background: yellow;
+  color: #000;
+}
+
+.main {
+  max-width: 1000px;
+  margin: 60px auto 0;
+}
+
+.main__heading {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.list {
+  list-style: square;
+}
+
+.klasa-z-js {
+  background: yellow;
+}
+
+.about__picture {
+  display: block;
+  max-width: 100%;
+}
+
+.hamburger {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+}
+
+@media (min-width: 768px) {
+  .navigation {
+    background: #478a05;
+    padding: 16px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    background: rgb(255, 255, 255);
+    height: 100px;
+    align-items: center;
+  }
 }
